@@ -28,7 +28,7 @@ public class hashmap {
         int q=sc.nextInt();
         for(int i=0;i<q;i++){
             int num;
-            num=sc.nextInt();
+            num=sc.nextInt();                                                          
             if (map.containsKey(num)){
                 System.out.println(map.get(num));
             }
