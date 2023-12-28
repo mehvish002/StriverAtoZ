@@ -24,6 +24,7 @@ public class nextPermutation {
         arr[pos1]=arr[pos2];
         arr[pos2]=tmp;
         Arrays.sort(arr,pos1+1,arr.length);
+    
     }
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
